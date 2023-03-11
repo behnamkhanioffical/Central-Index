@@ -27,3 +27,5 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 
 # https://support.crowdin.com/configuration-file-v3/#saving-directory-structure-on-server
 preserve_hierarchy: true
+- name: Build and push Docker images
+  uses: docker/build-push-action@v4.0.0
